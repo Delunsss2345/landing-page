@@ -1,0 +1,28 @@
+.header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.main__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main__header-nav {
+  display: flex;
+  column-gap: 34px;
+}
+.main__header--nav-link {
+  color: var(--Typography-2, #676a6c);
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+  transition: color 0.3s;
+}
+.main__header--nav-item {
+  &:hover {
+    .main__header--nav-link {
+      color: #000;
+    }
+  }
+}
