@@ -1,0 +1,213 @@
+@use "../common/common";
+.trending {
+  padding-top: 138px;
+}
+.trending--intro-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.trending--info-title {
+  color: #2d3134;
+  margin-bottom: 16px;
+  /* H2 */
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px; /* 125% */
+}
+.trending--info-desc {
+  color: #676a6c;
+
+  /* P1 Regular */
+  font-family: var(--Inter);
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.main__trending--action {
+  display: flex;
+  column-gap: 14px;
+}
+
+.main__trending--btn-left {
+  background-color: transparent;
+  border: 1px solid #ececec;
+}
+.main__trending--btn-right {
+  background-color: #ff7b29;
+  border: none;
+}
+.main__trending--btn-right,
+.main__trending--btn-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  &:hover {
+    opacity: 0.6;
+  }
+}
+.main__trending--list {
+  display: grid;
+  grid-template-columns: repeat(3, 386px);
+  grid-template-rows: auto;
+  column-gap: 30px;
+}
+.main__trending--item {
+  width: 386px;
+  padding: 15px 15px 23px 15px;
+  border: 1px solid #E6E6E6;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0px 40px 90px 0px rgba(0, 0, 0, 0.06);
+  transition: transform 0.4s;
+  cursor: pointer;
+  &:hover {
+    transform: translateY(-10px);
+  }
+}
+.main__trending-item-img-block {
+  border-radius: 16px;
+  margin-bottom: 18px;
+  img {
+    width: 356px;
+    height: 190px;
+    flex-shrink: 0;
+    border-radius: 16px;
+  }
+}
+.main__trending--item-cover {
+  padding: 0px 19px 0px 19px;
+}
+.main__trending--item-title {
+  color: #2d3134;
+  margin-bottom: 8px;
+  /* B1 */
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 150% */
+}
+.main__trending--item-planhoder {
+  margin-bottom: 27px;
+}
+.main__trending--item-child- {
+  &1 {
+    position: relative;
+    display: inline-block;
+    margin-right: 16px;
+    color: #8a8a8a;
+
+    /* P3 */
+    font-family: var(--Inter);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 150% */
+    &::after {
+      position: absolute;
+      content: "";
+      right: -8px;
+      width: 1px;
+      height: 13px;
+      background: #e1e1e1;
+    }
+  }
+  &2 {
+    color: #8a8a8a;
+    /* P3 */
+    font-family: var(--Inter);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 150% */
+  }
+}
+.main__trending--item-active {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main__trending--item-price {
+  color: #2d3134;
+  /* H4 */
+  font-family: var(--Inter);
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+}
+.main__trending--item-btn {
+  width: 100px;
+  height: 38px;
+  border-radius: 8px;
+  border: 1px solid #31c3e0;
+  background-color: transparent;
+  transition: background-color 0.4s;
+  &:hover {
+    background-color: #31c3e0;
+    span {
+      color: #fff;
+    }
+  }
+  span {
+    transition: color 0.4s;
+    color: #30bbd7;
+    font-family: var(--Inter);
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px; /* 100% */
+  }
+}
+.main__trending--item-end-block {
+  display: flex;
+  margin-top: 41px;
+  column-gap: 14px;
+  align-items: center;
+}
+.main__trending--item-end-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 7px 16px 0px rgba(0, 0, 0, 0.04);
+}
+.main__trending--item-end-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ff7b29;
+  span {
+    color: #fff;
+    text-align: center;
+    font-family: var(--Inter);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
+.main__trending--item-end-name {
+  color: #737979;
+
+  /* B2 Med */
+  font-family: var(--Inter);
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+}

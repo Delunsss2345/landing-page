@@ -301,4 +301,100 @@
       width: 335px;
     }
   }
+  .main__tour--extra-img {
+    display: none;
+  }
+  .main__tour--extra-info-title {
+    width: 335px;
+    color: var(--Typography-1, #2d3134);
+    margin-bottom: 10px;
+    /* H4 */
+    font-family: var(--Inter);
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+  }
+  .main__tour--extra-info-desc {
+    width: 335px;
+    color: var(--Typography-2, #676a6c);
+    /* P2 */
+    font-family: var(--Inter);
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+  }
+  .main__tour--extra-item {
+    column-gap: 14px;
+  }
+  .main__tour--extra-info-item-title {
+    width: 243px;
+    margin-bottom: 6px;
+    color: var(--Typography-1, #2d3134);
+    font-family: var(--Inter);
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+  }
+  .main__tour--extra-info-desc {
+    margin-bottom: 30px;
+  }
+  .main__tour--extra-info-desc-item {
+    width: 236px;
+    color: var(--Typography-2, #676a6c);
+    font-family: var(--Inter);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 160% */
+  }
+  .trending--intro-block {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .trending--info-title {
+    color: var(--Typography-1, #2d3134);
+    margin-bottom: 10px;
+    /* H4 */
+    font-family: var(--Inter);
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+  }
+  .trending--info-desc {
+    width: 335px;
+    margin-bottom: 30px;
+    color: var(--Typography-2, #676a6c);
+    /* P2 */
+    font-family: var(--Inter);
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+  }
+  .main__trending--list {
+    overflow: hidden;
+  }
+  .main__trending--item {
+    width: 310px;
+    padding: 15px 10px 23px 10px;
+  }
+  .main__trending--item-cover {
+    padding: 0;
+  }
+  .main__trending--list {
+    grid-template-columns: repeat(3, 310px);
+    grid-template-rows: auto;
+  }
+  .main__trending-item-img-block {
+    object-fit: cover;
+    img {
+      object-fit: cover;
+      width: 290px ;
+      height: 175px;
+    }
+  }
 }
