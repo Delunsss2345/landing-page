@@ -1210,6 +1210,95 @@ a {
   line-height: 18px; /* 150% */
 }
 
+.main__type--title {
+  color: var(--Typography-1, #2d3134);
+  text-align: center;
+  margin-bottom: 60px;
+  /* H2 */
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px; /* 125% */
+}
+
+.main__type--list {
+  display: flex;
+  column-gap: 30px;
+}
+
+.main__type--item {
+  width: 270px;
+  height: 240px;
+  border-radius: 12px;
+  border: 2px solid var(--Stock, #ececec);
+  background: var(--White, #fff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 28px;
+  cursor: pointer;
+  transition: transform 0.4s, border-color 0.4s;
+}
+.main__type--item:hover {
+  transform: translateY(-10px);
+  border-color: #333;
+}
+
+.main__type--item-name {
+  display: inline-block;
+  margin-bottom: 18px;
+  color: var(--Typography-1, #2d3134);
+  text-align: center;
+  font-family: var(--Inter);
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 100% */
+}
+
+.main__type--item-img-block.Cruises img {
+  width: 68px;
+  height: 68px;
+}
+.main__type--item-img-block.Museum-Tours img {
+  width: 79.336px;
+  height: 68px;
+}
+.main__type--item-img-block.Beaches img {
+  width: 81.496px;
+  height: 68px;
+}
+.main__type--item-img-block img {
+  width: 54.581px;
+  height: 68px;
+  flex-shrink: 0;
+}
+
+.main__type--item-desc {
+  color: var(--Typography-2, #676a6c);
+  font-family: var(--Inter);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 100% */
+}
+.main__type--item-desc .main__type--item-strong {
+  color: var(--Color-1, #ff7b29);
+  font-family: var(--Inter);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 14px;
+}
+
+.main__type--item-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 /*PC*/
 @media screen and (min-width: 978px) {
   .header__mobile,
@@ -1599,6 +1688,7 @@ a {
   }
   .destination {
     padding-top: 60px;
+    padding-bottom: 90px;
   }
   .main__destination--recommend-block {
     flex-direction: column;
@@ -1680,6 +1770,22 @@ a {
     font-style: normal;
     font-weight: 600;
     line-height: 10px; /* 100% */
+  }
+  .main__type--title {
+    color: var(--Typography-1, #2d3134);
+    text-align: center;
+    /* H4 */
+    font-family: var(--Inter);
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+  }
+  .main__type--list {
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
   }
 }
 

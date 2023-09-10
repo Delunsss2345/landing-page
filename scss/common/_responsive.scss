@@ -399,6 +399,7 @@
   }
   .destination {
     padding-top: 60px;
+    padding-bottom: 90px;
   }
   .main__destination--recommend-block {
     flex-direction: column;
@@ -485,5 +486,22 @@
       font-weight: 600;
       line-height: 10px; /* 100% */
     }
+  }
+  .main__type--title {
+    color: var(--Typography-1, #2d3134);
+    text-align: center;
+
+    /* H4 */
+    font-family: var(--Inter);
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+  }
+  .main__type--list {
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
   }
 }
