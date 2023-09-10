@@ -504,4 +504,32 @@
     justify-content: center;
     align-items: center;
   }
+  .main__user {
+    margin-top: 170px;
+    flex-direction: column;
+  }
+  .main__user--img {
+    margin-bottom: 62px;
+  }
+  .main__user--info-title {
+    width: 335px;
+    color: #2d3134;
+    margin-bottom: 12px;
+    /* H4 */
+    font-family: var(--Inter);
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+  }
+  .main__user--info-desc {
+    width: 335px;
+    margin-bottom: 31px;
+    color: #676a6c;
+    font-family: var(--Inter);
+    font-size: 1.4rem;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+  }
 }

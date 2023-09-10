@@ -1210,6 +1210,10 @@ a {
   line-height: 18px; /* 150% */
 }
 
+.type {
+  padding-bottom: 60px;
+}
+
 .main__type--title {
   color: var(--Typography-1, #2d3134);
   text-align: center;
@@ -1297,6 +1301,85 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.main__user {
+  display: flex;
+  margin-top: 300px;
+  column-gap: 165px;
+}
+
+.main__user--img {
+  position: relative;
+  margin-left: 47px;
+}
+.main__user--img > img {
+  width: 300px;
+  flex-shrink: 0;
+}
+
+.main__user--img-extra {
+  position: absolute;
+  z-index: -1;
+  top: -145px;
+  left: -71px;
+}
+
+.main__user--info-title {
+  width: 391px;
+  margin-bottom: 22px;
+  color: #2d3134;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50px; /* 125% */
+}
+
+.main__user--info-desc {
+  width: 516px;
+  color: #676a6c;
+  font-size: 1.8rem;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 28px; /* 155.556% */
+}
+
+.main__user--block {
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+  column-gap: 18px;
+}
+
+.main__user--img-block-avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.main__user--img-block-avatar img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.main__user--name-avatar {
+  margin-bottom: 2px;
+  color: #000;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.14px;
+}
+
+.main__user--desc-avatar {
+  margin-bottom: 14px;
+  color: #747474;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px; /* 100% */
+  letter-spacing: -0.12px;
 }
 
 /*PC*/
@@ -1786,6 +1869,34 @@ a {
     row-gap: 20px;
     justify-content: center;
     align-items: center;
+  }
+  .main__user {
+    margin-top: 170px;
+    flex-direction: column;
+  }
+  .main__user--img {
+    margin-bottom: 62px;
+  }
+  .main__user--info-title {
+    width: 335px;
+    color: #2d3134;
+    margin-bottom: 12px;
+    /* H4 */
+    font-family: var(--Inter);
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+  }
+  .main__user--info-desc {
+    width: 335px;
+    margin-bottom: 31px;
+    color: #676a6c;
+    font-family: var(--Inter);
+    font-size: 1.4rem;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
   }
 }
 
