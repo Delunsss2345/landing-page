@@ -5,7 +5,8 @@
   .over-lay,
   .main__header--mobile-btn,
   svg.mobile,
-  .main__guiding--content-day-mobile ,.main__footer--top-mobile {
+  .main__guiding--content-day-mobile,
+  .main__footer--top-mobile {
     display: none;
   }
   svg.mobile,
@@ -53,7 +54,7 @@
     top: 0;
     left: 0;
     bottom: 0;
-    width: 40%;
+    width: 60%;
     background-color: #333;
   }
   .header__mobile--nav-link {
@@ -661,7 +662,7 @@
   }
   .main__footer--top {
     display: grid;
-    grid-template-columns: 82px  100px ;
+    grid-template-columns: 82px 100px;
     flex-wrap: wrap;
     justify-content: flex-start;
     column-gap: 71px;
@@ -674,7 +675,7 @@
   .main__footer--bottom {
     display: inline-block;
     padding-top: 20px;
-  } 
+  }
   .main__footer--bottom-logo-block {
     margin-bottom: 30px;
   }
@@ -684,6 +685,7 @@
     margin-bottom: 30px;
   }
   .main__footer--bottom-media-item {
-    border: 1px solid rgb(204, 204, 204 , 0.4);
+    border: 1px solid rgb(204, 204, 204, 0.4);
   }
+
 }

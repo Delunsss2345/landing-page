@@ -1777,7 +1777,8 @@ a {
   .over-lay,
   .main__header--mobile-btn,
   svg.mobile,
-  .main__guiding--content-day-mobile, .main__footer--top-mobile {
+  .main__guiding--content-day-mobile,
+  .main__footer--top-mobile {
     display: none;
   }
   svg.mobile,
@@ -1821,7 +1822,7 @@ a {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 40%;
+    width: 60%;
     background-color: #333;
   }
   .header__mobile--nav-link {
