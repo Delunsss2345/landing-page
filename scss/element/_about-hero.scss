@@ -1,6 +1,5 @@
 @use "../common/common";
 .header {
-  background: url(/asset/img/about-img-block-header.png);
   width: 100vw;
   height: 590px;
   image-rendering: -webkit-optimize-contrast;
@@ -22,8 +21,8 @@
   padding-bottom: 140px;
 }
 .main__about-us-html {
-    display:flex;
-    column-gap: 110px;
+  display: flex;
+  column-gap: 110px;
 }
 .main__about-html--recommend {
   color: var(--Color-1, #ff7b29);
@@ -64,19 +63,19 @@
   }
 }
 .main__tour--extra {
-    margin-left: 75px;
+  margin-left: 75px;
 }
 @keyframes fade {
-    to {
-        opacity: 0.5;
-        visibility: hidden;
-    }
-    from {
-        opacity: 1;
-        visibility: visible;
-    }
+  to {
+    opacity: 0.5;
+    visibility: hidden;
+  }
+  from {
+    opacity: 1;
+    visibility: visible;
+  }
 }
 .main-body-about {
-    transition: animation 0.7s;
-    animation: fade 0.7s ease;
+  transition: animation 0.7s;
+  animation: fade 0.7s ease;
 }

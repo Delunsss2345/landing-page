@@ -280,7 +280,6 @@ a {
 }
 
 .header {
-  background: url(/asset/img/about-img-block-header.png);
   width: 100vw;
   height: 590px;
   image-rendering: -webkit-optimize-contrast;
