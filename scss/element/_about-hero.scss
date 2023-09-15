@@ -66,3 +66,17 @@
 .main__tour--extra {
     margin-left: 75px;
 }
+@keyframes fade {
+    to {
+        opacity: 0.5;
+        visibility: hidden;
+    }
+    from {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+.main-body-about {
+    transition: animation 0.7s;
+    animation: fade 0.7s ease;
+}
