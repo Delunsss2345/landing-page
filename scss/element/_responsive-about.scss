@@ -10,10 +10,9 @@
   }
 }
 @media screen and (max-width: 767.68px) {
-    .container{
-        width: 85%;
-
-    }
+  .container {
+    width: 85%;
+  }
   .header {
     height: 240px;
   }
@@ -84,5 +83,44 @@
     img {
       width: 338px;
     }
+  }
+  .main__meet-gr-title {
+    color: var(--Typography-1, #2d3134);
+    text-align: center;
+    /* H4 */
+    font-family: var(--Inter);
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+  }
+  .main__meet-gr-list {
+    grid-template-columns: 335px;
+    row-gap: 20px;
+  }
+  .main__meet-gr-image {
+    margin-bottom: 14px;
+    img {
+      width: 335px;
+      height: 277px;
+      flex-shrink: 0;
+    }
+  }
+  .main__meet-gr-name-item {
+    margin-bottom: 2px;
+    color: var(--Typography-1, #2d3134);
+    /* B2 */
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 162.5% */
+  }
+  .main__meet-gr-item-work {
+    color: var(--Typography-2, #676a6c);
+    font-family: var(--Inter);
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 150% */
   }
 }
