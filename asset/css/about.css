@@ -1650,6 +1650,7 @@ a {
     line-height: 20px; /* 142.857% */
   }
   .main__about-use-html-block-img {
+    width: auto;
     margin-left: auto;
     margin-right: auto;
   }
