@@ -1,0 +1,38 @@
+@use "../common/common";
+@media screen and (max-width: 767.98px) {
+  .header {
+    height: 240px;
+  }
+  .header__destination-html-title {
+    margin-top: 47px;
+    margin-bottom: 12px;
+    color: var(--Color-1, #ff7b29);
+    text-align: center;
+    /* H2 */
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; /* 125% */
+  }
+  .header__destination-html-desc {
+    color: var(--White, #fff);
+    text-align: center;
+    /* B2 */
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 162.5% */
+  }
+  .destination-list-block {
+    padding-top: 60px;
+  }
+  .main__destination-list {
+    justify-content: center;
+    grid-template-columns: 270px;
+    grid-template-rows: 232px;
+  }
+ 
+  .main__destination-btn {
+    margin-top: 60px;
+  }
+}
