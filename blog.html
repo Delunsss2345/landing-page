@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="asset/css/destination.css" />
+    <link rel="stylesheet" href="asset/css/blog.css" />
     <!-- Font Poppins -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
@@ -19,7 +19,7 @@
   </head>
   <body class="main-body-about">
     <!-- Header -->
-    <header class="header" style="background-image: url(./asset/img/Destinations/Destinations.png);">
+    <header class="header">
       <div class="container">
         <section class="main__header">
           <!-- Logo -->
@@ -40,10 +40,12 @@
               <a href="./about.html" class="main__header--nav-link">About</a>
             </li>
             <li class="main__header--nav-item">
-              <a href="./destination.html" class="main__header--nav-link">Destinations</a>
+              <a href="./destination.html" class="main__header--nav-link"
+                >Destinations</a
+              >
             </li>
             <li class="main__header--nav-item">
-              <a href="./blog.html" class="main__header--nav-link">Blog</a>
+              <a href="#!" class="main__header--nav-link">Blog</a>
             </li>
             <li class="main__header--nav-item">
               <a href="#!" class="main__header--nav-link">Pages</a>
@@ -69,8 +71,6 @@
           </label>
         </section>
       </div>
-      <h1 class="header__destination-html-title">Destinations</h1>
-      <p class="header__destination-html-desc">Explore Tours By Destinations</p>
     </header>
     <input type="checkbox" id="check-header-mobile" />
     <!-- Header Mobile -->
@@ -89,131 +89,211 @@
           <a href="./about.html" class="header__mobile--nav-link">About</a>
         </li>
         <li class="header__mobile--nav-item">
-          <a href="./destination.html" class="header__mobile--nav-link">Destinations</a>
+          <a href="./destination.html" class="header__mobile--nav-link"
+            >Destinations</a
+          >
         </li>
         <li class="header__mobile--nav-item">
-          <a href="./blog.html" class="header__mobile--nav-link">Blog</a>
+          <a href="#!" class="header__mobile--nav-link">Blog</a>
         </li>
         <li class="header__mobile--nav-item">
           <a href="#!" class="header__mobile--nav-link">Pages</a>
         </li>
       </ul>
     </header>
-    <main>
-    <!-- Album -->
-    <section class="destination-list-block">
-        <div class="container">
-            <section class="main__destination-list">
-                <article class="main__destination-item">
-                    <figure class="main__destination-img-block">
-                        <img src="./asset/img/Destinations/Switzerland.jpg" alt="Switzerland">
-                    </figure>
-                    <p class="main__destination-title-img">
-                        Switzerland
-                    </p>
-                </article>
-                <article class="main__destination-item">
-                    <figure class="main__destination-img-block">
-                        <img src="./asset/img/Destinations/Maldives.jpg" alt="Maldives">
-                    </figure>
-                    <p class="main__destination-title-img">
-                        Maldives
-                    </p>
-                </article>
-                <article class="main__destination-item">
-                    <figure class="main__destination-img-block">
-                        <img src="./asset/img/Destinations/Indonesia.jpg" alt="Indonesia">
-                    </figure>
-                    <p class="main__destination-title-img">
-                        Indonesia
-                    </p>
-                </article>
-                <article class="main__destination-item">
-                    <figure class="main__destination-img-block">
-                        <img src="./asset/img/Destinations/Bangladesh.jpg" alt="Bangladesh">
-                    </figure>
-                    <p class="main__destination-title-img">
-                        Bangladesh
-                    </p>
-                </article>
-                <article class="main__destination-item">
-                    <figure class="main__destination-img-block">
-                        <img src="./asset/img/Destinations/Thailand.jpg" alt="Thailand">
-                    </figure>
-                    <p class="main__destination-title-img">
-                        Thailand
-                    </p>
-                </article>
-                <article class="main__destination-item">
-                    <figure class="main__destination-img-block">
-                        <img src="./asset/img/Destinations/Turkey.jpg" alt="Turkey">
-                    </figure>
-                    <p class="main__destination-title-img">
-                        Turkey
-                    </p>
-                </article>
-                <article class="main__destination-item">
-                    <figure class="main__destination-img-block">
-                        <img src="./asset/img/Destinations/Agentina.jpg" alt="Agentina">
-                    </figure>
-                    <p class="main__destination-title-img">
-                        Agentina
-                    </p>
-                </article>
-                <article class="main__destination-item">
-                    <figure class="main__destination-img-block">
-                        <img src="./asset/img/Destinations/Brazil.jpg" alt="Brazil">
-                    </figure>
-                    <p class="main__destination-title-img">
-                        Brazil
-                    </p>
-                </article>
-                <article class="main__destination-item">
-                    <figure class="main__destination-img-block">
-                        <img src="./asset/img/Destinations/Morocco.jpg" alt="Morocco">
-                    </figure>
-                    <p class="main__destination-title-img">
-                        Morocco
-                    </p>
-                </article>
-                <article class="main__destination-item">
-                    <figure class="main__destination-img-block">
-                        <img src="./asset/img/Destinations/Dubai.jpg" alt="Dubai">
-                    </figure>
-                    <p class="main__destination-title-img">
-                        Dubai
-                    </p>
-                </article>
-                <article class="main__destination-item">
-                    <figure class="main__destination-img-block">
-                        <img src="./asset/img/Destinations/Ecuador.jpg" alt="Ecuador">
-                    </figure>
-                    <p class="main__destination-title-img">
-                        Ecuador
-                    </p>
-                </article>
-                <article class="main__destination-item">
-                    <figure class="main__destination-img-block">
-                        <img src="./asset/img/Destinations/Colombia.jpg" alt="Colombia">
-                    </figure>
-                    <p class="main__destination-title-img">
-                        Colombia
-                    </p>
-                </article>
-            </section>
-            <button class="main__destination-btn">
-                <span>See more</span>
-            </button>
-        </div>
+    <section class="hero">
+      <h1 class="header__blog-html-title">Welcome to our Travel Blog</h1>
+      <figure class="main__hero">
+        <img src="./asset/img/Shapes-blog.svg" alt="Shapes-blog" />
+      </figure>
     </section>
-   
-
-         
-        
+    <main>
+      <!-- Information -->
+      <section class="information">
+        <div class="container">
+          <section class="main__information">
+            <div class="main__information--img-block">
+              <figure class="main__information--img">
+                <img
+                  src="./asset/img/olga-stalska-QaWRyEdlffY-unsplash.jpg"
+                  alt="olga-stalska"
+                />
+              </figure>
+              <h2 class="main__information--title">
+                Exploring Argentina and Chile by Bus
+              </h2>
+            </div>
+            <form class="main__information--form-group">
+              <div class="main__information--input-form">
+                <input
+                  placeholder="Search Blog"
+                  id="input-check"
+                  type="text"
+                  class="main__information--input"
+                />
+                <label
+                  class="main__information--label"
+                  for="input-check"
+                  type="submit"
+                >
+                  <span>Search</span>
+                </label>
+              </div>
+              <div class="main__information--list">
+                <span class="main__information--name-item"> Recent Blog </span>
+                <div class="main__information--list-gr">
+                  <article class="main__information--item">
+                    <figure class="main__information--item-img">
+                      <img
+                        src="./asset/img/information1.jpg"
+                        alt="information1"
+                      />
+                    </figure>
+                    <h3 class="main__information--item--title">
+                      7 Tips For Nomads On A Budget Trips
+                    </h3>
+                  </article>
+                  <article class="main__information--item">
+                    <figure class="main__information--item-img">
+                      <img
+                        src="./asset/img/information2.jpg"
+                        alt="information1"
+                      />
+                    </figure>
+                    <h3 class="main__information--item--title">
+                      Luxury travel: the most remote resorts in Philippines
+                    </h3>
+                  </article>
+                  <article class="main__information--item">
+                    <figure class="main__information--item-img">
+                      <img
+                        src="./asset/img/information3.jpg"
+                        alt="information1"
+                      />
+                    </figure>
+                    <h3 class="main__information--item--title">
+                      Top travel destinations the experts say
+                    </h3>
+                  </article>
+                </div>
+              </div>
+            </form>
+          </section>
+        </div>
+      </section>
+      <!-- List Local Beautiful -->
+      <section class="local">
+        <div class="container">
+          <section class="main__local">
+            <article class="main__local--item">
+              <figure class="main__local--item--img-block">
+                <img src="./asset/img/img-information4.jpg" alt="" />
+              </figure>
+              <div class="main__local--item-recommend">
+                <h4 class="main__local--item--title">
+                  On the Shores of a Pink Lake in Australia
+                </h4>
+                <p class="main__local--item-desc">
+                  Meh synth Schlitz, tempor duis single-origin coffee ea next
+                  level ethnic fingerstache fanny pack nostrud. Photo booth anim
+                  8-bit hella, PBR 3 wolf moon beard Helvetica. Salvia esse
+                  nihil...
+                </p>
+                <a href="#!" class="main__local--link-item">Read more</a>
+              </div>
+            </article>
+            <article class="main__local--item">
+                <figure class="main__local--item--img-block">
+                  <img src="./asset/img/img-information5.jpg" alt="" />
+                </figure>
+                <div class="main__local--item-recommend">
+                  <h4 class="main__local--item--title">
+                    On the Shores of a Pink Lake in Australia
+                  </h4>
+                  <p class="main__local--item-desc">
+                    Meh synth Schlitz, tempor duis single-origin coffee ea next
+                    level ethnic fingerstache fanny pack nostrud. Photo booth anim
+                    8-bit hella, PBR 3 wolf moon beard Helvetica. Salvia esse
+                    nihil...
+                  </p>
+                  <a href="#!" class="main__local--link-item">Read more</a>
+                </div>
+              </article>
+              <article class="main__local--item">
+                <figure class="main__local--item--img-block">
+                  <img src="./asset/img/img-information6.jpg" alt="" />
+                </figure>
+                <div class="main__local--item-recommend">
+                  <h4 class="main__local--item--title">
+                    On the Shores of a Pink Lake in Australia
+                  </h4>
+                  <p class="main__local--item-desc">
+                    Meh synth Schlitz, tempor duis single-origin coffee ea next
+                    level ethnic fingerstache fanny pack nostrud. Photo booth anim
+                    8-bit hella, PBR 3 wolf moon beard Helvetica. Salvia esse
+                    nihil...
+                  </p>
+                  <a href="#!" class="main__local--link-item">Read more</a>
+                </div>
+              </article>
+              <article class="main__local--item">
+                <figure class="main__local--item--img-block">
+                  <img src="./asset/img/img-information7.jpg" alt="" />
+                </figure>
+                <div class="main__local--item-recommend">
+                  <h4 class="main__local--item--title">
+                    On the Shores of a Pink Lake in Australia
+                  </h4>
+                  <p class="main__local--item-desc">
+                    Meh synth Schlitz, tempor duis single-origin coffee ea next
+                    level ethnic fingerstache fanny pack nostrud. Photo booth anim
+                    8-bit hella, PBR 3 wolf moon beard Helvetica. Salvia esse
+                    nihil...
+                  </p>
+                  <a href="#!" class="main__local--link-item">Read more</a>
+                </div>
+              </article>
+              <article class="main__local--item">
+                <figure class="main__local--item--img-block">
+                  <img src="./asset/img/img-information8.jpg" alt="" />
+                </figure>
+                <div class="main__local--item-recommend">
+                  <h4 class="main__local--item--title">
+                    On the Shores of a Pink Lake in Australia
+                  </h4>
+                  <p class="main__local--item-desc">
+                    Meh synth Schlitz, tempor duis single-origin coffee ea next
+                    level ethnic fingerstache fanny pack nostrud. Photo booth anim
+                    8-bit hella, PBR 3 wolf moon beard Helvetica. Salvia esse
+                    nihil...
+                  </p>
+                  <a href="#!" class="main__local--link-item">Read more</a>
+                </div>
+              </article>
+              <article class="main__local--item">
+                <figure class="main__local--item--img-block">
+                  <img src="./asset/img/img-information10.jpg" alt="" />
+                </figure>
+                <div class="main__local--item-recommend">
+                  <h4 class="main__local--item--title">
+                    On the Shores of a Pink Lake in Australia
+                  </h4>
+                  <p class="main__local--item-desc">
+                    Meh synth Schlitz, tempor duis single-origin coffee ea next
+                    level ethnic fingerstache fanny pack nostrud. Photo booth anim
+                    8-bit hella, PBR 3 wolf moon beard Helvetica. Salvia esse
+                    nihil...
+                  </p>
+                  <a href="#!" class="main__local--link-item">Read more</a>
+                </div>
+              </article>
+          </section>
+        </div>
+      </section>
     </main>
 
     <!-- Footer -->
-    <footer class="footer" >
+    <footer class="footer">
       <div class="container">
         <section class="main__footer">
           <!-- Main footer top -->

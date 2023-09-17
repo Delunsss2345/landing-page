@@ -1,0 +1,20 @@
+@use "../common/common";
+.header__blog-html-title {
+  position: relative;
+  margin-top: 104px;
+  padding-bottom: 140px;
+  color: var(--Typography-1, #2d3134);
+  text-align: center;
+  /* H1 */
+  font-size: 6.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px; /* 112.903% */
+}
+.main__hero {
+    position: absolute;
+    z-index: -1;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}

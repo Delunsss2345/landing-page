@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "sass scss/about.scss asset/css/about.css -w",
     "index": "sass scss/main.scss asset/css/main.css -w",
-    "destination":"sass scss/destination.scss asset/css/destination.css -w"
+    "destination":"sass scss/destination.scss asset/css/destination.css -w",
+    "blog" : "sass scss/blog.scss asset/css/blog.css -w" 
   },
   "author": "",
   "license": "ISC"
