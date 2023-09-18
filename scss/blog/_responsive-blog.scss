@@ -1,0 +1,91 @@
+@use "../common/common";
+@media screen and (max-width: 767.98px) {
+  .header__blog-html-title {
+    width: 323px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding-bottom: 70px;
+    color: var(--Typography-1, #2d3134);
+    text-align: center;
+    /* H2 */
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; /* 125% */
+  }
+  .main__hero {
+    width: 189.419px;
+    height: 192.007px;
+    left: 50%;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .main__information--form-group {
+    display: none;
+  }
+  .main__information--img {
+    width: 335px;
+    height: 222px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: url(<path-to-image>),
+      lightgray 0px -13.814px / 100% 112.686% no-repeat;
+  }
+  .main__information--title {
+    width: 335px;
+    color: var(--Typography-1, #2d3134);
+    /* H4 */
+    font-family: var(--Inter);
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+  }
+  .main__information {
+    margin-bottom: 60px;
+  }
+  .main__local {
+    grid-template-columns: 315px;
+    grid-template-rows: 481px;
+  }
+  .main__local--item--img-block {
+    width: 315px;
+    height: 255px;
+  }
+  .main__local--item--title {
+    width: 315px;
+    margin-bottom: 10px;
+    color: var(--Typography-1, #2d3134);
+    /* B1 */
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 150% */
+  }
+  .main__local--item-desc {
+    width: 315px;
+    color: var(--Typography-2, #676a6c);
+    /* P2 */
+    font-family: var(--Inter);
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+  }
+  .main__local--link-item {
+    width: 315px;
+    color: var(--Color-1, #ff7b29);
+    /* B2 Med */
+    font-family: var(--Inter);
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+  }
+  .main__local--btn {
+    margin-top: 60px;
+  }
+}
