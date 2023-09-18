@@ -460,9 +460,8 @@ a {
 .main__hero {
   position: absolute;
   z-index: -1;
-  top: 10%;
-  left: 50%;
-  transform: translateX(-50%);
+  top: 45px;
+  left: 570px;
 }
 
 .main__information {
@@ -679,6 +678,18 @@ a {
   font-weight: 600;
   line-height: 18px; /* 100% */
   letter-spacing: 0.18px;
+}
+
+aos[data-aos] {
+  pointer-events: none;
+}
+
+.aos-animate {
+  pointer-events: auto;
+}
+
+.aos-init[data-aos][data-aos].aos-animate {
+  transform: unset;
 }
 
 /*PC*/
@@ -1362,7 +1373,8 @@ a {
   .main__hero {
     width: 189.419px;
     height: 192.007px;
-    left: 50%;
+    top: 86px;
+    left: 100px;
   }
   .main__hero img {
     width: 100%;

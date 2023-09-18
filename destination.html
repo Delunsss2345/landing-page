@@ -15,11 +15,16 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <!-- Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Document</title>
   </head>
   <body class="main-body-about">
     <!-- Header -->
-    <header class="header" style="background-image: url(./asset/img/Destinations/Destinations.png);">
+    <header data-aos="fade-down" data-aos-duration="1150"
+      class="header"
+      style="background-image: url(./asset/img/Destinations/Destinations.png)"
+    >
       <div class="container">
         <section class="main__header">
           <!-- Logo -->
@@ -40,7 +45,9 @@
               <a href="./about.html" class="main__header--nav-link">About</a>
             </li>
             <li class="main__header--nav-item">
-              <a href="./destination.html" class="main__header--nav-link">Destinations</a>
+              <a href="./destination.html" class="main__header--nav-link"
+                >Destinations</a
+              >
             </li>
             <li class="main__header--nav-item">
               <a href="./blog.html" class="main__header--nav-link">Blog</a>
@@ -89,7 +96,9 @@
           <a href="./about.html" class="header__mobile--nav-link">About</a>
         </li>
         <li class="header__mobile--nav-item">
-          <a href="./destination.html" class="header__mobile--nav-link">Destinations</a>
+          <a href="./destination.html" class="header__mobile--nav-link"
+            >Destinations</a
+          >
         </li>
         <li class="header__mobile--nav-item">
           <a href="./blog.html" class="header__mobile--nav-link">Blog</a>
@@ -100,120 +109,113 @@
       </ul>
     </header>
     <main>
-    <!-- Album -->
-    <section class="destination-list-block">
+      <!-- Album -->
+      <section class="destination-list-block">
         <div class="container">
-            <section class="main__destination-list">
-                <article class="main__destination-item">
-                    <figure class="main__destination-img-block">
-                        <img src="./asset/img/Destinations/Switzerland.jpg" alt="Switzerland">
-                    </figure>
-                    <p class="main__destination-title-img">
-                        Switzerland
-                    </p>
-                </article>
-                <article class="main__destination-item">
-                    <figure class="main__destination-img-block">
-                        <img src="./asset/img/Destinations/Maldives.jpg" alt="Maldives">
-                    </figure>
-                    <p class="main__destination-title-img">
-                        Maldives
-                    </p>
-                </article>
-                <article class="main__destination-item">
-                    <figure class="main__destination-img-block">
-                        <img src="./asset/img/Destinations/Indonesia.jpg" alt="Indonesia">
-                    </figure>
-                    <p class="main__destination-title-img">
-                        Indonesia
-                    </p>
-                </article>
-                <article class="main__destination-item">
-                    <figure class="main__destination-img-block">
-                        <img src="./asset/img/Destinations/Bangladesh.jpg" alt="Bangladesh">
-                    </figure>
-                    <p class="main__destination-title-img">
-                        Bangladesh
-                    </p>
-                </article>
-                <article class="main__destination-item">
-                    <figure class="main__destination-img-block">
-                        <img src="./asset/img/Destinations/Thailand.jpg" alt="Thailand">
-                    </figure>
-                    <p class="main__destination-title-img">
-                        Thailand
-                    </p>
-                </article>
-                <article class="main__destination-item">
-                    <figure class="main__destination-img-block">
-                        <img src="./asset/img/Destinations/Turkey.jpg" alt="Turkey">
-                    </figure>
-                    <p class="main__destination-title-img">
-                        Turkey
-                    </p>
-                </article>
-                <article class="main__destination-item">
-                    <figure class="main__destination-img-block">
-                        <img src="./asset/img/Destinations/Agentina.jpg" alt="Agentina">
-                    </figure>
-                    <p class="main__destination-title-img">
-                        Agentina
-                    </p>
-                </article>
-                <article class="main__destination-item">
-                    <figure class="main__destination-img-block">
-                        <img src="./asset/img/Destinations/Brazil.jpg" alt="Brazil">
-                    </figure>
-                    <p class="main__destination-title-img">
-                        Brazil
-                    </p>
-                </article>
-                <article class="main__destination-item">
-                    <figure class="main__destination-img-block">
-                        <img src="./asset/img/Destinations/Morocco.jpg" alt="Morocco">
-                    </figure>
-                    <p class="main__destination-title-img">
-                        Morocco
-                    </p>
-                </article>
-                <article class="main__destination-item">
-                    <figure class="main__destination-img-block">
-                        <img src="./asset/img/Destinations/Dubai.jpg" alt="Dubai">
-                    </figure>
-                    <p class="main__destination-title-img">
-                        Dubai
-                    </p>
-                </article>
-                <article class="main__destination-item">
-                    <figure class="main__destination-img-block">
-                        <img src="./asset/img/Destinations/Ecuador.jpg" alt="Ecuador">
-                    </figure>
-                    <p class="main__destination-title-img">
-                        Ecuador
-                    </p>
-                </article>
-                <article class="main__destination-item">
-                    <figure class="main__destination-img-block">
-                        <img src="./asset/img/Destinations/Colombia.jpg" alt="Colombia">
-                    </figure>
-                    <p class="main__destination-title-img">
-                        Colombia
-                    </p>
-                </article>
-            </section>
-            <button class="main__destination-btn">
-                <span>See more</span>
-            </button>
+          <section data-aos="fade-up" data-aos-duration="1150" class="main__destination-list">
+            <article class="main__destination-item">
+              <figure class="main__destination-img-block">
+                <img
+                  src="./asset/img/Destinations/Switzerland.jpg"
+                  alt="Switzerland"
+                />
+              </figure>
+              <p class="main__destination-title-img">Switzerland</p>
+            </article>
+            <article class="main__destination-item">
+              <figure class="main__destination-img-block">
+                <img
+                  src="./asset/img/Destinations/Maldives.jpg"
+                  alt="Maldives"
+                />
+              </figure>
+              <p class="main__destination-title-img">Maldives</p>
+            </article>
+            <article class="main__destination-item">
+              <figure class="main__destination-img-block">
+                <img
+                  src="./asset/img/Destinations/Indonesia.jpg"
+                  alt="Indonesia"
+                />
+              </figure>
+              <p class="main__destination-title-img">Indonesia</p>
+            </article>
+            <article class="main__destination-item">
+              <figure class="main__destination-img-block">
+                <img
+                  src="./asset/img/Destinations/Bangladesh.jpg"
+                  alt="Bangladesh"
+                />
+              </figure>
+              <p class="main__destination-title-img">Bangladesh</p>
+            </article>
+            <article class="main__destination-item">
+              <figure class="main__destination-img-block">
+                <img
+                  src="./asset/img/Destinations/Thailand.jpg"
+                  alt="Thailand"
+                />
+              </figure>
+              <p class="main__destination-title-img">Thailand</p>
+            </article>
+            <article class="main__destination-item">
+              <figure class="main__destination-img-block">
+                <img src="./asset/img/Destinations/Turkey.jpg" alt="Turkey" />
+              </figure>
+              <p class="main__destination-title-img">Turkey</p>
+            </article>
+            <article class="main__destination-item">
+              <figure class="main__destination-img-block">
+                <img
+                  src="./asset/img/Destinations/Agentina.jpg"
+                  alt="Agentina"
+                />
+              </figure>
+              <p class="main__destination-title-img">Agentina</p>
+            </article>
+            <article class="main__destination-item">
+              <figure class="main__destination-img-block">
+                <img src="./asset/img/Destinations/Brazil.jpg" alt="Brazil" />
+              </figure>
+              <p class="main__destination-title-img">Brazil</p>
+            </article>
+            <article class="main__destination-item">
+              <figure class="main__destination-img-block">
+                <img src="./asset/img/Destinations/Morocco.jpg" alt="Morocco" />
+              </figure>
+              <p class="main__destination-title-img">Morocco</p>
+            </article>
+            <article class="main__destination-item">
+              <figure class="main__destination-img-block">
+                <img src="./asset/img/Destinations/Dubai.jpg" alt="Dubai" />
+              </figure>
+              <p class="main__destination-title-img">Dubai</p>
+            </article>
+            <article class="main__destination-item">
+              <figure class="main__destination-img-block">
+                <img src="./asset/img/Destinations/Ecuador.jpg" alt="Ecuador" />
+              </figure>
+              <p class="main__destination-title-img">Ecuador</p>
+            </article>
+            <article class="main__destination-item">
+              <figure class="main__destination-img-block">
+                <img
+                  src="./asset/img/Destinations/Colombia.jpg"
+                  alt="Colombia"
+                />
+              </figure>
+              <p class="main__destination-title-img">Colombia</p>
+            </article>
+          </section>
+          <button data-aos="fade-up" data-aos-duration="1150" class="main__destination-btn">
+            <span>See more</span>
+          </button>
         </div>
-    </section>
-   
-
-         
-        
+      </section>
     </main>
 
     <!-- Footer -->
-    <footer class="footer" >
+    <footer data-aos="fade-up" data-aos-duration="1150" class="footer">
       <div class="container">
         <section class="main__footer">
           <!-- Main footer top -->
@@ -374,5 +376,9 @@
       </div>
     </footer>
     <label for="check-header-mobile" class="over-lay"></label>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

@@ -15,11 +15,13 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <!-- Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Document</title>
   </head>
   <body class="main-body-about">
     <!-- Header -->
-    <header class="header">
+    <header data-aos="fade-down" data-aos-duration="1150" class="header">
       <div class="container">
         <section class="main__header">
           <!-- Logo -->
@@ -102,8 +104,8 @@
       </ul>
     </header>
     <section class="hero">
-      <h1 class="header__blog-html-title">Welcome to our Travel Blog</h1>
-      <figure class="main__hero">
+      <h1 data-aos="fade-down" data-aos-duration="1150" class="header__blog-html-title">Welcome to our Travel Blog</h1>
+      <figure  data-aos="fade-up" data-aos-duration="1150" class="main__hero">
         <img src="./asset/img/Shapes-blog.svg" alt="Shapes-blog" />
       </figure>
     </section>
@@ -112,7 +114,7 @@
       <section class="information">
         <div class="container">
           <section class="main__information">
-            <div class="main__information--img-block">
+            <div data-aos="fade-right" data-aos-duration="1150" class="main__information--img-block">
               <figure class="main__information--img">
                 <img
                   src="./asset/img/olga-stalska-QaWRyEdlffY-unsplash.jpg"
@@ -123,7 +125,7 @@
                 Exploring Argentina and Chile by Bus
               </h2>
             </div>
-            <form class="main__information--form-group">
+            <form data-aos="fade-left" data-aos-duration="1150" class="main__information--form-group">
               <div class="main__information--input-form">
                 <input
                   placeholder="Search Blog"
@@ -182,7 +184,7 @@
         </div>
       </section>
       <!-- List Local Beautiful -->
-      <section class="local">
+      <section data-aos="fade-up" data-aos-duration="1150" class="local">
         <div class="container">
           <section class="main__local">
             <article class="main__local--item">
@@ -288,7 +290,7 @@
                 </div>
               </article>
           </section>
-          <button class="main__local--btn">
+          <button data-aos="fade-up" data-aos-duration="1150" class="main__local--btn">
             <span>See more</span>
           </button>
         </div>
@@ -297,7 +299,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer data-aos="fade-up" data-aos-duration="1150" class="footer">
       <div class="container">
         <section class="main__footer">
           <!-- Main footer top -->
@@ -458,5 +460,9 @@
       </div>
     </footer>
     <label for="check-header-mobile" class="over-lay"></label>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

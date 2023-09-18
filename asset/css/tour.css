@@ -460,9 +460,8 @@ a {
 .main__hero {
   position: absolute;
   z-index: -1;
-  top: 10%;
-  left: 50%;
-  transform: translateX(-50%);
+  top: 45px;
+  left: 570px;
 }
 
 .hero {
@@ -793,7 +792,8 @@ a {
 }
 
 .main__hero {
-  top: 15%;
+  top: 70px;
+  left: 550px;
 }
 
 .main__item-img-local {
@@ -865,6 +865,18 @@ a {
   font-style: normal;
   font-weight: 600;
   line-height: 32px; /* 133.333% */
+}
+
+aos[data-aos] {
+  pointer-events: none;
+}
+
+.aos-animate {
+  pointer-events: auto;
+}
+
+.aos-init[data-aos][data-aos].aos-animate {
+  transform: unset;
 }
 
 /*PC*/
@@ -1537,7 +1549,8 @@ a {
     row-gap: 25px;
   }
   .main__hero {
-    top: 7%;
+    top: 70px;
+    left: -10px;
   }
   .main__item-img-local {
     width: 335px;

@@ -1,4 +1,15 @@
 @use "../common/common";
+aos[data-aos] {
+  pointer-events: none;
+}
+
+.aos-animate {
+  pointer-events: auto;
+}
+
+.aos-init[data-aos][data-aos].aos-animate {
+  transform: unset;
+}
 /*PC*/
 @media screen and (min-width: 978px) {
   .header__mobile,
@@ -690,5 +701,4 @@
   .main__footer--bottom-media-item {
     border: 1px solid rgb(204, 204, 204, 0.4);
   }
-
 }

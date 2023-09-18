@@ -15,11 +15,13 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <!-- Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Document</title>
   </head>
   <body class="main-body-about">
     <!-- Header -->
-    <header class="header" style="background-image: url(./scss/base/img/about-img-block-header.jpg);">
+    <header data-aos="fade-down" data-aos-duration="1150" class="header" style="background-image: url(./scss/base/img/about-img-block-header.jpg);">
       <div class="container">
         <section class="main__header">
           <!-- Logo -->
@@ -101,8 +103,8 @@
     <main>
       <section class="about-us-html">
         <div class="container">
-          <section class="main__about-us-html">
-            <div class="main__about-us-html-title">
+          <section  class="main__about-us-html">
+            <div data-aos="fade-right" data-aos-duration="1150" class="main__about-us-html-title">
               <p class="main__about-html--recommend">Who we are</p>
               <h2 class="main__about-html--title">
                 We are best tourist operator
@@ -114,7 +116,7 @@
                 and make your trip an unforgettable experience.
               </p>
             </div>
-            <figure class="main__about-use-html-block-img">
+            <figure data-aos="fade-left" data-aos-duration="1150" class="main__about-use-html-block-img">
                 <img src="./asset/img/about-us-html-img1.png" alt="about-us-html-img1">
             </figure>
           </section>
@@ -125,17 +127,17 @@
             <div class="container">
               <section class="main__tour">
                 <!-- Main Tour Img  -->
-                <figure class="main__tour--img-block">
+                <figure data-aos="fade-right" data-aos-duration="1150" class="main__tour--img-block">
                     <img src="./asset/img/illustration.png" alt="illustration">
                 </figure>
               <!-- Main Tour Extra -->
-              <section class="main__tour--extra">
+              <section  class="main__tour--extra">
                 <!-- Extra Img -->
-                <figure class="main__tour--extra-img">
+                <figure data-aos="fade-right" data-aos-duration="1150" class="main__tour--extra-img">
                   <img src="./asset/img/tour-img5.jpg" alt="img" />
                 </figure>
                 <!-- Extra Info -->
-                <div class="main__tour--extra-info-block">
+                <div  data-aos="fade-left" data-aos-duration="1150" class="main__tour--extra-info-block">
                   <!-- Info -->
                   <div class="main__tour--extra-info">
                     <h2 class="main__tour--extra-info-title">Why Choose Us?</h2>
@@ -197,12 +199,12 @@
           <!-- Meet group --> 
           <section class="meet-gr">
             <div class="container">
-              <section class="main__meet-gr"> 
-                <h2 class="main__meet-gr-title">
+              <section  class="main__meet-gr"> 
+                <h2 data-aos="fade-down" data-aos-duration="1150" class="main__meet-gr-title">
                   Meet our tour guides
                 </h2>
                 <!-- List group -->
-                <div class="main__meet-gr-list">
+                <div data-aos="fade-up" data-aos-duration="1150" class="main__meet-gr-list">
                   <article class="main__meet-gr-item">
                     <figure class="main__meet-gr-image">
                       <img src="./asset/img/meet-group-img1.jpg" alt="meet-group-img1">
@@ -320,7 +322,7 @@
           </section>
 
           <!-- Subscription -->
-      <section class="subscription">
+      <section data-aos="fade-down" data-aos-duration="1150" class="subscription">
         <div class="container">
           <section class="main__subscription">
             <h2 class="main__subscription--title">Subscribe our newsletter</h2>
@@ -469,7 +471,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="footer" >
+    <footer data-aos="fade-up" data-aos-duration="1150" class="footer" >
       <div class="container">
         <section class="main__footer">
           <!-- Main footer top -->
@@ -630,5 +632,10 @@
       </div>
     </footer>
     <label for="check-header-mobile" class="over-lay"></label>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
+
 </html>

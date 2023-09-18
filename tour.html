@@ -15,11 +15,13 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <!-- Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Document</title>
   </head>
   <body class="main-body-about">
     <!-- Header -->
-    <header class="header">
+    <header data-aos="fade-down" data-aos-duration="1150" class="header">
       <div class="container">
         <section class="main__header">
           <!-- Logo -->
@@ -101,13 +103,13 @@
         </li>
       </ul>
     </header>
-    <section class="hero">
-      <h1 class="header__blog-html-title">Tour</h1>
-      <figure class="main__hero">
+    <section  class="hero">
+      <h1 data-aos="fade-down" data-aos-duration="1150" class="header__blog-html-title">Tour</h1>
+      <figure data-aos="fade-up" data-aos-duration="1150"   class="main__hero">
         <img src="./asset/img/Shapes-blog.svg" alt="Shapes-blog" />
       </figure>
       <!-- Main hero Extra -->
-      <div class="main__hero--extra">
+      <div data-aos="fade-up" data-aos-duration="1150" class="main__hero--extra">
         <article class="main__hero--extra-item">
           <span class="main__hero--extra-item-title-name"> Location </span>
           <p class="main__hero--extra-item-desc">
@@ -188,7 +190,7 @@
       </div>
     </section>
     <main>
-      <section class="list-local-tour">
+      <section data-aos="fade-up" data-aos-duration="1150" class="list-local-tour">
         <div class="container">
           <section class="main__list--local-tour">
             <article class="main__item-local-tour">
@@ -269,7 +271,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer data-aos="fade-up" data-aos-duration="1150" class="footer">
       <div class="container">
         <section class="main__footer">
           <!-- Main footer top -->
@@ -430,5 +432,9 @@
       </div>
     </footer>
     <label for="check-header-mobile" class="over-lay"></label>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
