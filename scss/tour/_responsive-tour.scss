@@ -1,0 +1,50 @@
+@use "../common/common";
+@media screen and (max-width: 767.98px) {
+  .main__list--local-tour {
+    grid-template-columns: 335px;
+    grid-template-rows: repeat(auto, 280px);
+    row-gap: 25px;
+  }
+  .main__hero {
+    top: 7%;
+  }
+  .main__item-img-local {
+    width: 335px;
+    height: 280px;
+  }
+  .main__item-local-information {
+    width: 335px;
+    height: 68px;
+    padding: 14px 19px;
+  }
+  .main__item--local--name {
+    color: var(--Typography-1, #2d3134);
+
+    /* B1 */
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 150% */
+  }
+  .main__item--local-tour-rate {
+    span {
+      color: var(--Typography-2, #676a6c);
+      text-align: right;
+      /* P3 */
+      font-family: var(--Inter);
+      font-size: 1.2rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 18px; /* 150% */
+    }
+    strong {
+      color: var(--Typography-1, #2d3134);
+      text-align: right;
+      /* B1 */
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 30px; /* 150% */
+    }
+  }
+}

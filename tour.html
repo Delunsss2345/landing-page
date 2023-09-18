@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="asset/css/destination.css" />
+    <link rel="stylesheet" href="asset/css/tour.css" />
     <!-- Font Poppins -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
@@ -19,7 +19,7 @@
   </head>
   <body class="main-body-about">
     <!-- Header -->
-    <header class="header" style="background-image: url(./asset/img/Destinations/Destinations.png);">
+    <header class="header">
       <div class="container">
         <section class="main__header">
           <!-- Logo -->
@@ -40,7 +40,9 @@
               <a href="./about.html" class="main__header--nav-link">About</a>
             </li>
             <li class="main__header--nav-item">
-              <a href="./destination.html" class="main__header--nav-link">Destinations</a>
+              <a href="./destination.html" class="main__header--nav-link"
+                >Destinations</a
+              >
             </li>
             <li class="main__header--nav-item">
               <a href="./blog.html" class="main__header--nav-link">Blog</a>
@@ -69,8 +71,6 @@
           </label>
         </section>
       </div>
-      <h1 class="header__destination-html-title">Destinations</h1>
-      <p class="header__destination-html-desc">Explore Tours By Destinations</p>
     </header>
     <input type="checkbox" id="check-header-mobile" />
     <!-- Header Mobile -->
@@ -89,7 +89,9 @@
           <a href="./about.html" class="header__mobile--nav-link">About</a>
         </li>
         <li class="header__mobile--nav-item">
-          <a href="./destination.html" class="header__mobile--nav-link">Destinations</a>
+          <a href="./destination.html" class="header__mobile--nav-link"
+            >Destinations</a
+          >
         </li>
         <li class="header__mobile--nav-item">
           <a href="./blog.html" class="header__mobile--nav-link">Blog</a>
@@ -99,121 +101,175 @@
         </li>
       </ul>
     </header>
-    <main>
-    <!-- Album -->
-    <section class="destination-list-block">
-        <div class="container">
-            <section class="main__destination-list">
-                <article class="main__destination-item">
-                    <figure class="main__destination-img-block">
-                        <img src="./asset/img/Destinations/Switzerland.jpg" alt="Switzerland">
-                    </figure>
-                    <p class="main__destination-title-img">
-                        Switzerland
-                    </p>
-                </article>
-                <article class="main__destination-item">
-                    <figure class="main__destination-img-block">
-                        <img src="./asset/img/Destinations/Maldives.jpg" alt="Maldives">
-                    </figure>
-                    <p class="main__destination-title-img">
-                        Maldives
-                    </p>
-                </article>
-                <article class="main__destination-item">
-                    <figure class="main__destination-img-block">
-                        <img src="./asset/img/Destinations/Indonesia.jpg" alt="Indonesia">
-                    </figure>
-                    <p class="main__destination-title-img">
-                        Indonesia
-                    </p>
-                </article>
-                <article class="main__destination-item">
-                    <figure class="main__destination-img-block">
-                        <img src="./asset/img/Destinations/Bangladesh.jpg" alt="Bangladesh">
-                    </figure>
-                    <p class="main__destination-title-img">
-                        Bangladesh
-                    </p>
-                </article>
-                <article class="main__destination-item">
-                    <figure class="main__destination-img-block">
-                        <img src="./asset/img/Destinations/Thailand.jpg" alt="Thailand">
-                    </figure>
-                    <p class="main__destination-title-img">
-                        Thailand
-                    </p>
-                </article>
-                <article class="main__destination-item">
-                    <figure class="main__destination-img-block">
-                        <img src="./asset/img/Destinations/Turkey.jpg" alt="Turkey">
-                    </figure>
-                    <p class="main__destination-title-img">
-                        Turkey
-                    </p>
-                </article>
-                <article class="main__destination-item">
-                    <figure class="main__destination-img-block">
-                        <img src="./asset/img/Destinations/Agentina.jpg" alt="Agentina">
-                    </figure>
-                    <p class="main__destination-title-img">
-                        Agentina
-                    </p>
-                </article>
-                <article class="main__destination-item">
-                    <figure class="main__destination-img-block">
-                        <img src="./asset/img/Destinations/Brazil.jpg" alt="Brazil">
-                    </figure>
-                    <p class="main__destination-title-img">
-                        Brazil
-                    </p>
-                </article>
-                <article class="main__destination-item">
-                    <figure class="main__destination-img-block">
-                        <img src="./asset/img/Destinations/Morocco.jpg" alt="Morocco">
-                    </figure>
-                    <p class="main__destination-title-img">
-                        Morocco
-                    </p>
-                </article>
-                <article class="main__destination-item">
-                    <figure class="main__destination-img-block">
-                        <img src="./asset/img/Destinations/Dubai.jpg" alt="Dubai">
-                    </figure>
-                    <p class="main__destination-title-img">
-                        Dubai
-                    </p>
-                </article>
-                <article class="main__destination-item">
-                    <figure class="main__destination-img-block">
-                        <img src="./asset/img/Destinations/Ecuador.jpg" alt="Ecuador">
-                    </figure>
-                    <p class="main__destination-title-img">
-                        Ecuador
-                    </p>
-                </article>
-                <article class="main__destination-item">
-                    <figure class="main__destination-img-block">
-                        <img src="./asset/img/Destinations/Colombia.jpg" alt="Colombia">
-                    </figure>
-                    <p class="main__destination-title-img">
-                        Colombia
-                    </p>
-                </article>
-            </section>
-            <button class="main__destination-btn">
-                <span>See more</span>
-            </button>
-        </div>
+    <section class="hero">
+      <h1 class="header__blog-html-title">Tour</h1>
+      <figure class="main__hero">
+        <img src="./asset/img/Shapes-blog.svg" alt="Shapes-blog" />
+      </figure>
+      <!-- Main hero Extra -->
+      <div class="main__hero--extra">
+        <article class="main__hero--extra-item">
+          <span class="main__hero--extra-item-title-name"> Location </span>
+          <p class="main__hero--extra-item-desc">
+            Bali, Indonesia
+            <span class="main__hero--extra-click">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="5"
+                viewBox="0 0 8 5"
+                fill="none"
+              >
+                <path
+                  d="M7.05666 0L4 3.05666L0.943344 0L0 0.943312L4 4.94331L8 0.943312L7.05666 0Z"
+                  fill="black"
+                />
+              </svg>
+            </span>
+          </p>
+        </article>
+        <article class="main__hero--extra-item">
+          <span class="main__hero--extra-item-title-name"> City </span>
+          <p class="main__hero--extra-item-desc">
+            Prambanan
+            <span class="main__hero--extra-click">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="5"
+                viewBox="0 0 8 5"
+                fill="none"
+              >
+                <path
+                  d="M7.05666 0L4 3.05666L0.943344 0L0 0.943312L4 4.94331L8 0.943312L7.05666 0Z"
+                  fill="black"
+                />
+              </svg>
+            </span>
+          </p>
+        </article>
+        <article class="main__hero--extra-item">
+          <span class="main__hero--extra-item-title-name"> Guest </span>
+          <p class="main__hero--extra-item-desc">
+            8 Persons
+            <span class="main__hero--extra-click">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="5"
+                viewBox="0 0 8 5"
+                fill="none"
+              >
+                <path
+                  d="M7.05666 0L4 3.05666L0.943344 0L0 0.943312L4 4.94331L8 0.943312L7.05666 0Z"
+                  fill="black"
+                />
+              </svg>
+            </span>
+          </p>
+        </article>
+        <!-- Action -->
+        <button class="main__hero--extra-btn btn-default">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="18"
+            viewBox="0 0 18 18"
+            fill="none"
+          >
+            <circle cx="8" cy="8" r="7" stroke="white" stroke-width="2" />
+            <path
+              d="M16.2929 17.7071C16.6834 18.0976 17.3166 18.0976 17.7071 17.7071C18.0976 17.3166 18.0976 16.6834 17.7071 16.2929L16.2929 17.7071ZM12.2929 13.7071L16.2929 17.7071L17.7071 16.2929L13.7071 12.2929L12.2929 13.7071Z"
+              fill="white"
+            />
+          </svg>
+          <span>Search</span>
+        </button>
+      </div>
     </section>
-   
-
-         
-        
+    <main>
+      <section class="list-local-tour">
+        <div class="container">
+          <section class="main__list--local-tour">
+            <article class="main__item-local-tour">
+              <figure class="main__item-img-local">
+                <img src="./asset/img/indonesia.jpg" alt="indonesia" />
+              </figure>
+              <div class="main__item-local-information">
+                <h3 class="main__item--local--name">Indonesia</h3>
+                <div class="main__item--local-tour-rate">
+                  <span>9 days</span>
+                  <strong>$6,500</strong>
+                </div>
+              </div>
+            </article>
+            <article class="main__item-local-tour">
+              <figure class="main__item-img-local">
+                <img src="./asset/img/thailand.jpg" alt="thailand.jpg" />
+              </figure>
+              <div class="main__item-local-information">
+                <h3 class="main__item--local--name">Thailand</h3>
+                <div class="main__item--local-tour-rate">
+                  <span>9 days</span>
+                  <strong>$6,500</strong>
+                </div>
+              </div>
+            </article>
+            <article class="main__item-local-tour">
+              <figure class="main__item-img-local">
+                <img src="./asset/img/bangledesh.jpg" alt="bangledesh.jpg" />
+              </figure>
+              <div class="main__item-local-information">
+                <h3 class="main__item--local--name">Bangledesh</h3>
+                <div class="main__item--local-tour-rate">
+                  <span>9 days</span>
+                  <strong>$6,500</strong>
+                </div>
+              </div>
+            </article>
+            <article class="main__item-local-tour">
+              <figure class="main__item-img-local">
+                <img src="./asset/img/dubai.jpg" alt="dubai.jpg" />
+              </figure>
+              <div class="main__item-local-information">
+                <h3 class="main__item--local--name">Dubai</h3>
+                <div class="main__item--local-tour-rate">
+                  <span>9 days</span>
+                  <strong>$6,500</strong>
+                </div>
+              </div>
+            </article>
+            <article class="main__item-local-tour">
+              <figure class="main__item-img-local">
+                <img src="./asset/img/Maldives.jpg" alt="Maldives.jpg" />
+              </figure>
+              <div class="main__item-local-information">
+                <h3 class="main__item--local--name">Maldives</h3>
+                <div class="main__item--local-tour-rate">
+                  <span>9 days</span>
+                  <strong>$6,500</strong>
+                </div>
+              </div>
+            </article>
+            <article class="main__item-local-tour">
+              <figure class="main__item-img-local">
+                <img src="./asset/img/vietnam.jpg" alt="vietnam.jpg" />
+              </figure>
+              <div class="main__item-local-information">
+                <h3 class="main__item--local--name">Vietnam</h3>
+                <div class="main__item--local-tour-rate">
+                  <span>9 days</span>
+                  <strong>$6,500</strong>
+                </div>
+              </div>
+            </article>
+          </section>
+        </div>
+      </section>
     </main>
 
     <!-- Footer -->
-    <footer class="footer" >
+    <footer class="footer">
       <div class="container">
         <section class="main__footer">
           <!-- Main footer top -->
