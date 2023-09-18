@@ -512,12 +512,12 @@ a {
 .main__information--input {
   width: 291px;
   height: 54px;
+  padding-left: 20px;
   border-radius: 8px;
   border: 1px solid var(--Stock, #ececec);
   background: var(--White, #fff);
 }
 .main__information--input::placeholder {
-  padding-left: 20px;
   color: var(--Typography-2, #676a6c);
   /* P1 */
   font-family: var(--Inter);

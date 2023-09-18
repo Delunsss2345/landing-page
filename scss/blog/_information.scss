@@ -40,15 +40,17 @@
   column-gap: 20px;
   align-items: center;
 }
+
 .main__information--input {
   width: 291px;
   height: 54px;
+  padding-left: 20px;
   border-radius: 8px;
   border: 1px solid var(--Stock, #ececec);
   background: var(--White, #fff);
 
   &::placeholder {
-    padding-left: 20px;
+   
     color: var(--Typography-2, #676a6c);
 
     /* P1 */
@@ -188,7 +190,7 @@
   cursor: pointer;
   transition: transform 0.4s;
   &:hover {
-   transform: scale(1.05); 
+    transform: scale(1.05);
   }
   span {
     width: 127px;
